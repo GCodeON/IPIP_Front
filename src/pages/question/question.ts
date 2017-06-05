@@ -80,6 +80,7 @@ export class QuestionPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad QuestionPage');
+    console.log(apiQuestions);
   }
 
   slideNext() {
